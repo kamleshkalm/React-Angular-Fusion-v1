@@ -17,12 +17,12 @@
   },
    "repository": {
     "type": "git",
-    "url": "https://github.com/kamleshkalm/React-Angular-Fusion.git",
+    "url": "https://github.com/kamleshkalm/React-Angular-Fusion-v1.git",
     "directory": "packages/core"
   },
-  "homepage": "https://github.com/kamleshkalm/React-Angular-Fusion#README",
+  "homepage": "https://github.com/kamleshkalm/React-Angular-Fusion-v1#README",
   "bugs": {
-    "url": "https://github.com/kamleshkalm/React-Angular-Fusion/issues"
+    "url": "https://github.com/kamleshkalm/React-Angular-Fusion-v1/issues"
   },
   "keywords": ["event-bus", "shared-state", "react", "angular","interop", "fusion", "framework"],
   "author": "Kamlesh Kumar",
