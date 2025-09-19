@@ -1,0 +1,57 @@
+{
+  "name": "react-angular-fusion",
+  "version": "1.0.0",
+  "description": "Seamless interoperability between React and Angular components",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:core && npm run build:angular && npm run build:react",
+    "build:core": "cd packages/core && npm run build",
+    "build:angular": "cd packages/angular && npm run build",
+    "build:react": "cd packages/react && npm run build",
+    "clean": "rimraf packages/*/dist",
+    "install:all": "npm install && cd packages/core && npm install && cd ../angular && npm install && cd ../react && npm install",
+    "test": "echo \"Run tests from individual packages\"",
+    "publish:dry-run": "lerna publish --dry-run",
+    "publish:patch": "lerna version patch --yes && lerna publish from-package --yes",
+    "publish:minor": "lerna version minor --yes && lerna publish from-package --yes",
+    "bootstrap": "lerna bootstrap -- --legacy-peer-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamleshkalm/React-Angular-Fusion.git"  
+  },
+  "homepage": "https://github.com/kamleshkalm/React-Angular-Fusion#README",
+  "bugs": {
+    "url": "https://github.com/kamleshkalm/React-Angular-Fusion/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "lerna": "^8.1.2",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "react",
+    "angular",
+    "interop",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Kamlesh Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@react-angular-fusion/angular": "^1.0.0",
+    "@react-angular-fusion/core": "^1.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

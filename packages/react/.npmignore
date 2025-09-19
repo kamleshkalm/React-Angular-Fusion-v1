@@ -1,0 +1,7 @@
+src/
+tests/
+*.ts
+!*.d.ts
+.gitignore
+.npmignore
+README.md
