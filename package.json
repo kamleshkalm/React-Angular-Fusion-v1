@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamleshkalm/React-Angular-Fusion-v1.git"  
+    "url": "git+https://github.com/kamleshkalm/React-Angular-Fusion-v1.git"
   },
   "homepage": "https://github.com/kamleshkalm/React-Angular-Fusion-v1#README",
   "bugs": {
@@ -49,8 +49,8 @@
   "author": "Kamlesh Kumar",
   "license": "MIT",
   "dependencies": {
-    "@react-angular-fusion/angular": "^1.0.0",
-    "@react-angular-fusion/core": "^1.0.0",
+    "@react-angular-fusion/angular": "^1.0.1",
+    "@react-angular-fusion/core": "^1.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   }
