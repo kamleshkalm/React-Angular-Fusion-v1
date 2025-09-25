@@ -1,6 +1,6 @@
 {
   "name": "@react-angular-fusion/react",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "React adapter for React-Angular interoperability",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -34,38 +34,45 @@
     "url": "https://github.com/kamleshkalm/React-Angular-Fusion-v1/issues"
   },
   "peerDependencies": {
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0",
+    "@angular/compiler": "^18.0.0 || ^19.0.0",
     "@angular/core": "^18.0.0 || ^19.0.0",
     "@angular/platform-browser": "^18.0.0 || ^19.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0 || ^19.0.0",
-    "@angular/compiler": "^18.0.0 || ^19.0.0",
-    "@react-angular-fusion/core": "^1.0.3"
+    "@react-angular-fusion/core": "^1.0.1",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@react-angular-fusion/core": "^1.0.3"
+    "@react-angular-fusion/core": "^1.0.1"
   },
   "devDependencies": {
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0",
-    "@types/react": "^18.0.0 || ^19.0.0",
-    "@types/react-dom": "^18.0.0 || ^19.0.0",
+    "@angular/compiler": "^18.0.0 || ^19.0.0",
+    "@angular/compiler-cli": "^18.0.0 || ^19.0.0",
     "@angular/core": "^18.0.0 || ^19.0.0",
     "@angular/platform-browser": "^18.0.0 || ^19.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0 || ^19.0.0",
-    "@angular/compiler": "^18.0.0 || ^19.0.0",
-    "@angular/compiler-cli": "^18.0.0 || ^19.0.0",
-    "typescript": "^5.5.4",
-    "rimraf": "^5.0.5"
+    "@types/react": "^18.0.0 || ^19.0.0",
+    "@types/react-dom": "^18.0.0 || ^19.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": ">=20.0.0"
   },
-  "keywords": ["react", "angular", "wrapper", "interop","components"],
+  "keywords": [
+    "react",
+    "angular",
+    "wrapper",
+    "interop",
+    "components"
+  ],
   "author": "Kamlesh Kumar",
   "license": "MIT",
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "gitHead": "9ce781465ce7f9cb31b17183ed0031490b57c6cc"
 }

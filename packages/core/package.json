@@ -1,6 +1,6 @@
 {
   "name": "@react-angular-fusion/core",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "Core utilities for React-Angular interoperability",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -15,7 +15,7 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/kamleshkalm/React-Angular-Fusion-v1.git",
     "directory": "packages/core"
@@ -24,13 +24,21 @@
   "bugs": {
     "url": "https://github.com/kamleshkalm/React-Angular-Fusion-v1/issues"
   },
-  "keywords": ["event-bus", "shared-state", "react", "angular","interop", "fusion", "framework"],
+  "keywords": [
+    "event-bus",
+    "shared-state",
+    "react",
+    "angular",
+    "interop",
+    "fusion",
+    "framework"
+  ],
   "author": "Kamlesh Kumar",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.5.4",
+    "@types/node": "^20.10.0",
     "rimraf": "^5.0.5",
-    "@types/node": "^20.10.0"
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -38,5 +46,6 @@
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "gitHead": "9ce781465ce7f9cb31b17183ed0031490b57c6cc"
 }

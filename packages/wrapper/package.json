@@ -1,0 +1,28 @@
+{
+  "name": "react-angular-fusion",
+  "version": "1.0.1",
+  "description": "Unified package for React-Angular interoperability",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@react-angular-fusion/core": "^1.0.1",
+    "@react-angular-fusion/angular": "^1.0.1",
+    "@react-angular-fusion/react": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "@angular/core": "^18.0.0 || ^19.0.0",
+    "@angular/platform-browser": "^18.0.0 || ^19.0.0"
+  }
+}
