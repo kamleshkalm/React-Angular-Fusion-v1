@@ -1,6 +1,6 @@
 {
   "name": "react-angular-fusion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Seamless interoperability between React and Angular components",
   "private": false,
   "workspaces": [
